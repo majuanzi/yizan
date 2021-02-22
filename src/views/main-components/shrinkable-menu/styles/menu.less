@@ -1,0 +1,48 @@
+@import '../../../../styles/global.less';
+
+.ivu-shrinkable-menu{
+    height: 100%;
+    width: 100%;
+
+    .ivu-shrinkable-title {
+        font-size: @vh-ft-14;
+        font-weight: 400;
+        color: @vh-h1-color;
+        padding-left: @vh-px-24;
+        padding-top: @vh-px-24;
+        padding-bottom: @vh-px-16;
+    }
+
+    .ivu-menu {
+
+        &.ivu-menu-vertical.ivu-menu-light {
+            &:after {
+                display: none;
+            }
+        }
+
+        .ivu-menu-item,
+        .ivu-menu-submenu-title {
+            padding: 10px 24px;
+            overflow: hidden;
+
+            & > .sidemenu-icon {
+                font-size: 16px;
+                margin-top: 2px;
+                vertical-align: top;
+            }
+        }
+        
+    }
+
+    .ivu-menu-submenu {
+        .ivu-menu-submenu-title {
+            .ivu-menu-submenu-title-icon {
+                margin-right: 0;
+            }
+        }
+        .ivu-menu {
+            background-color: @vh-bg;
+        }
+    }
+}

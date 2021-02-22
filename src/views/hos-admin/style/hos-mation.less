@@ -1,0 +1,87 @@
+
+li{list-style: none}
+
+.hos-mation {
+    background: rgba(240, 240, 240, 0.8);
+    
+    .hos-right{
+        min-height: 153px;
+        .title{
+            font-size:20px;
+            color:#333333;
+            font-weight: bold;
+            float: left;
+            width: 50%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+        .hos-content{
+            .hos-tilte{
+               white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 300px;
+                padding-right: 50px;
+                float: left;
+                line-height: 22px;
+                span{
+                   color:rgba(0,0,0,0.85);
+                   font-size: 14px 
+                }
+            }
+            .hos-max{
+                max-width: none;
+                word-break: break-all;
+                white-space: normal;
+            }
+        }
+    }
+    .hos-check{
+       
+        .check-left{
+             width: 178px;
+             float: left;
+             min-height: 36px;
+             border:1px solid #e9e9e9;
+             overflow: auto;
+             
+        };
+        .check-right{ border: 1px solid #e9e9e9; margin-left: 178px; padding: 26px;
+            .title{border-bottom:1px solid #e9e9e9;
+                height: 36px;
+                p{float: left; 
+                max-width: 800px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                padding-right: 50px;
+                }
+            }
+            .details{padding: 24px 0 0;
+                .box{
+                    float: left;
+                    padding-right: 30px;
+                    text-align: center;
+                    position: relative;
+                    p{font-size:14px; line-height: 32px; padding-left: 8px}
+                    .icon-deletes{
+                        position: absolute;right:10px; top:5px;
+                        cursor: pointer;
+                    }
+                    .icon-deletes:hover{color: rgba(199, 0, 0, 0.705)}
+                }
+            }
+        }
+        li{
+            padding: 0 11px;
+            height: 41px;
+            line-height: 41px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis
+        }
+        
+    }
+}
+

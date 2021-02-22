@@ -1,0 +1,22 @@
+{
+    "presets": [
+        "stage-3",
+        [
+            "es2015",
+            {
+                "modules": false
+            }
+        ]
+    ],
+    "plugins": [
+        "transform-runtime",
+        [
+            "component",
+            {
+                "libraryName": "element-ui",
+                "styleLibraryName": "theme-chalk"
+            }
+        ]
+    ],
+    "comments": false
+}

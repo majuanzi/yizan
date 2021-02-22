@@ -1,0 +1,33 @@
+<template>
+    <div id="main" class="app-main">
+        <!-- <Spin fix>
+            <div class="loader">
+                <svg class="circular" viewBox="25 25 50 50">
+                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="5" stroke-miterlimit="10"></circle>
+                </svg>
+            </div>
+        </Spin> -->
+        <router-view></router-view>
+    </div>
+</template>
+
+<script>
+    export default {
+        mounted () {
+
+        },
+        beforeDestroy () {
+
+        },
+        methods: {
+
+        }
+    };
+</script>
+
+<style>
+.app-main{
+    width: 100%;
+    height: 100%;
+}
+</style>
